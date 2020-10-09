@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.breadcrumb{
+    margin: 0px 1%;
+    margin-bottom: 30px;
+}
+.ucontainer2{
+    padding: 0 0;
+    /* background: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ucard2{
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ucard2a p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 12pt;
+    font-weight: 600;
+    color: #9F9C99;
+}
+.ucard2:hover .ubtn2{
+    transform: scale(1);
+}
+.ucontainer2a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubtn2{
+    position: absolute;
+    background: white;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    transform: scale(0);
+    transition: 200ms;
+}
+.modalTitle2{
+    text-align: center;
+    margin-left: 50%;
+    transform:translateX(-50%);
+}
+.modalBody2{
+    display: flex;
+    /* background: chartreuse; */
+    padding: 0 4px;
+}
+.modalBody2a{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.modalBody2a p:nth-child(1){
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 15pt;
+}
+.modalBody2a a{
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+.modalFooter2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.modalFooter2 div:nth-child(1){
+    font-weight: 500;
+    font-size: 14pt;
+    margin-bottom: 0px;
+}
+.modalFooter2a a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: 14pt;   
+}
+.modalFooter2a a:nth-child(1){
+    margin-left: 20px;
+}
+.modalFooter2a a:hover{
+    color: brown;
+}
+.ucontainer6 {
+    margin-top: 100px;
+}
+.div6{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    /* background: rgb(230, 225, 215); */
+}
+.div6a{
+    display: flex;
+    align-items: center;
+}
+.div6a div{
+    margin-right: 20px;
+    line-height: 1;
+}
+.div6a i{
+    margin-right: 30px;
+    font-size: 28px;
+}
+.div6a{
+    margin-right: 70px;
+}
+.ucontainer7{
+    display: flex;
+    justify-content: center;
+}
+.div7{
+    width: 23%;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 1%;
+}
+.div7:nth-child(4){
+    border-right: none;
+}
+.div7:nth-child(2){
+    border-right: none;
+}
+.div7a{
+    display: block;
+    color: gray;
+}
+.div7a i{
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) { 
+    
+    .ucard2{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .modalTitle2{
+        text-align: unset;
+        margin-left: 25%;
+        transform:translateX(0%);
+    }
+    .modalBody2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .modalBody2 img{
+        width: 100% !important;
+    }
+    .modalBody2a{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 20px;
+    }
+    .modalBody2a a{
+        margin-bottom: 15px;
+    }
+    .ucontainer6{
+        margin-top: 0px;
+    }
+    .div6{
+        flex-direction: column;
+        padding-left: 30px;
+        border-bottom:1px solid gray;
+        margin-top: 80px;
+    }
+    .div6a:nth-child(2){
+        padding: 20px 0;
+    }
+    .ucontainer7{
+        flex-direction: column;
+    }
+    .div7{
+        width: 100%;
+    }
+    .div7:nth-child(1){
+        margin-top: 30px;
+    }
+ }
+    

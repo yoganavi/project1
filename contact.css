@@ -1,0 +1,135 @@
+.breadcrumb{
+    margin-top: 0px;
+}
+.ucontainer2{
+    padding: 0 5%;
+}
+.ucontainer6 {
+    margin-top: 200px;
+}
+.div6{
+    /* height: 60px; */
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: rgb(230, 225, 215);
+}
+.div6a{
+    display: flex;
+    align-items: center;
+}
+.div6a div{
+    margin-right: 20px;
+    line-height: 1;
+}
+.div6a i{
+    margin-right: 30px;
+    font-size: 28px;
+}
+.div6a{
+    margin-right: 70px;
+}
+.ucontainer7{
+    display: flex;
+    justify-content: center;
+}
+.div7{
+    width: 23%;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 1%;
+}
+.div7:nth-child(4){
+    border-right: none;
+}
+.div7:nth-child(2){
+    border-right: none;
+}
+.div7a{
+    display: block;
+    color: gray;
+}
+.div7a i{
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.uform{
+    margin-bottom: 12px;
+    font-size: 10pt;
+}
+.uform input{
+    float: right;
+    width: 65%;
+    padding: 3px 12px;
+}
+.uform label{
+    margin-left: 20vw;
+}
+.uform textarea{
+    float: right;
+    width: 65%;
+    padding: 0 12px;
+}
+.uformInput{
+    margin-top: 100px;
+}
+.uformInput input{
+    width: fit-content;
+}
+
+@media (max-width: 576px) { 
+    .ucontainer6{
+        margin-top: 15vh;
+    }
+    .div6{
+        flex-direction: column;
+        padding-left: 30px;
+        border: none;
+    }
+    .div6a:nth-child(2){
+        padding: 20px 0;
+    }
+    .ucontainer7{
+        flex-direction: column;
+        margin: 0 14px;
+    }
+    .div7{
+        width: 100%;
+        /* background: red;
+        padding: 3px 30px; */
+    }
+    .div7:nth-child(1){
+        margin-top: 30px;
+    }
+    
+    .uform{
+        margin-bottom: 14px;
+        background: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0;
+        height: fit-content;
+    }
+    .uform input{
+        float: none;
+        width: 100%;
+    }
+    .uform label{
+        margin-left: 0;
+    }
+    .uform textarea{
+        float: none;
+        width: 100%;
+    }
+    .uformInput{
+        margin-top: 30px;
+    }
+    .uformInput input{
+        width: fit-content;
+    }
+ }
+    
